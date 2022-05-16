@@ -1,0 +1,204 @@
+"Phrases"
+{	
+	// Menu phrases.
+	"MenuTitle"
+	{
+		"en"	"Communication Management:"
+		"es"	""
+	}
+	
+	"SilenceAll"
+	{
+		"en"	"Silence All Players"
+		"es"	""
+	}
+	
+	"UnSilenceAll"
+	{
+		"en"	"Unsilence All Players"
+		"es"	""
+	}
+	
+	"SilenceTeammates"
+	{
+		"en"	"Silence All Teammates"
+		"es"	""
+	}
+	
+	"UnSilenceTeammates"
+	{
+		"en"	"Unsilence All Teammates"
+		"es"	""
+	}
+	
+	"SilenceEnemies"
+	{
+		"en"	"Silence All Enemies"
+		"es"	""
+	}
+	
+	"UnSilenceEnemies"
+	{
+		"en"	"Unsilence All Enemies"
+		"es"	""
+	}
+	
+	"ListOfPlayers"
+	{
+		"#format" "{1:d}"
+		"en"	"Found {1} player(s):"
+		"es"	""
+	}
+	
+	"Silenced"
+	{
+		"en"	"Silenced"
+		"es"	""
+	}
+	
+	"Muted"
+	{
+		"en"	"Muted"
+		"es"	""
+	}
+	
+	"Gagged"
+	{
+		"en"	"Gagged"
+		"es"	""
+	}
+	
+	"OverviewMenuTitle"
+	{
+		"#format" "{1:N}"
+		"en"	"[Comm Manager] Overviewing {1}:"
+		"es"	""
+	}
+	
+	"Mute"
+	{
+		"en"	"Mute"
+		"es"	""
+	}
+	
+	"Unmute"
+	{
+		"en"	"Unmute"
+		"es"	""
+	}
+	
+	"Gag"
+	{
+		"en"	"Gag"
+		"es"	""
+	}
+	
+	"Ungag"
+	{
+		"en"	"Ungag"
+		"es"	""
+	}
+	
+	// Chat messages phrases.
+	"MessagesPrefix"
+	{
+		"en"	" [Comm Manager] "
+		"es"	""
+	}
+	
+	"NoPlayersFound"
+	{
+		"en"	"No players found to silence."
+		"es"	""
+	}
+	
+	"SilencedAllPlayers"
+	{
+		"#format" "{1:d}"
+		"en"	"Successfully silenced {1} online player(s)."
+		"es"	""
+	}
+	
+	"UnSilencedAllPlayers"
+	{
+		"#format" "{1:d}"
+		"en"	"Successfully unsilenced {1} online player(s)."
+		"es"	""
+	}
+	
+	"SilencedTeammates"
+	{
+		"#format" "{1:d}"
+		"en"	"Successfully silenced {1} teammate(s)."
+		"es"	""
+	}
+	
+	"UnSilencedTeammates"
+	{
+		"#format" "{1:d}"
+		"en"	"Successfully unsilenced {1} teammate(s)."
+		"es"	""
+	}
+	
+	"SilencedEnemies"
+	{
+		"#format" "{1:d}"
+		"en"	"Successfully silenced {1} enemy(s)."
+		"es"	""
+	}
+	
+	"UnSilencedEnemies"
+	{
+		"#format" "{1:d}"
+		"en"	"Successfully unsilenced {1} enemy(s)."
+		"es"	""
+	}
+	
+	"PlayerNotAvailable"
+	{
+		"en"	"The selected player is no longer in-game."
+		"es"	""
+	}
+	
+	"PlayerMuted"
+	{
+		"#format" "{1:N}"
+		"en"	"Successfully muted player {1}."
+		"es"	""
+	}
+	
+	"PlayerUnmuted"
+	{
+		"#format" "{1:N}"
+		"en"	"Successfully unmuted player {1}."
+		"es"	""
+	}
+	
+	"PlayerGagged"
+	{
+		"#format" "{1:N}"
+		"en"	"Successfully gagged player {1}."
+		"es"	""
+	}
+	
+	"PlayerUngagged"
+	{
+		"#format" "{1:N}"
+		"en"	"Successfully ungagged player {1}."
+		"es"	""
+	}
+}
+
+// - White
+// - Red
+// - Team color (may cause player's color dot before symbol)
+// - Green
+// - Light green
+// - Green(money awards)
+// - Light red
+// - CT color
+//	 - T color
+// - Light blue
+// - Blue
+// - Violet
+// - Light red 2
