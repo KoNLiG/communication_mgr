@@ -38,7 +38,7 @@ jobs:
       - name: Checkout Custom-Weapons
         uses: actions/checkout@v2
         with:
-          path: customweapons
+          path: communication_mgr
 
       - name: 🔨 Setup Update Folder, Build Plugins, Copy To Update Folder
         run: |
@@ -47,7 +47,7 @@ jobs:
           mkdir ${{ env.PACKAGE_PATH }}
           mkdir ${{ env.PLUGINS_PATH }}
           
-          cp -rT customweapons/sourcemod/ ${{ env.PACKAGE_PATH }}
+          cp -rT communication_mgr/sourcemod/ ${{ env.PACKAGE_PATH }}
           
           # Add all files into update folder and compile scripts.
           for script_file in ${{ env.SCRIPTS_PATH }}/*.sp; do
@@ -67,5 +67,5 @@ jobs:
       - name: 🏷️ Upload Package
         uses: actions/upload-artifact@v2
         with:
-          name: customweapons
+          name: CommunicationManager
           path: ${{ env.PACKAGE_PATH }}
